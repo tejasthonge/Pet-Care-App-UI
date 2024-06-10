@@ -42,7 +42,9 @@ Widget buildTextFormFuild({required String hint ,required String  sufixSvgUrl ,r
                         
                         enabledBorder: OutlineInputBorder(
                           
-                          borderSide: BorderSide(color: AppColor.mainColor), 
+                          borderSide: BorderSide(color: AppColor.mainColorLight,
+                            width: 3
+                          ), 
                           borderRadius: BorderRadius.circular(8)),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: AppColor.mainColor), 
