@@ -5,8 +5,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:petcareapp/contants/style/colors.dart';
-import 'package:petcareapp/contants/style/fonts.dart';
+import 'package:petcareapp/constants/style/colors.dart';
+import 'package:petcareapp/constants/style/fonts.dart';
 import 'package:petcareapp/utils/imges.dart';
 import 'package:petcareapp/view/screens/login_screen.dart';
 

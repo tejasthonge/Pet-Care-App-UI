@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:petcareapp/contants/data/dummy_data.dart';
-import 'package:petcareapp/contants/style/colors.dart';
-import 'package:petcareapp/contants/style/fonts.dart';
-import 'package:petcareapp/contants/style/shadow.dart';
+import 'package:petcareapp/constants/data/dummy_data.dart';
+import 'package:petcareapp/constants/style/colors.dart';
+import 'package:petcareapp/constants/style/fonts.dart';
+import 'package:petcareapp/constants/style/shadow.dart';
 import 'package:petcareapp/utils/bootons.dart';
 
 Widget buildHorisontalSeeAll({required String titale, required String seeAll}) {

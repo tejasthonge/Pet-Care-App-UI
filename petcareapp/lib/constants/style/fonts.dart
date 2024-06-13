@@ -48,7 +48,7 @@ class AppFonts{
   static TextStyle h3Medium(Color color){
     return GoogleFonts.poppins( 
               color:color,
-              fontSize: 14,
+              fontSize: 16,
               fontWeight:FontWeight.w500,
             );
   }

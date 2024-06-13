@@ -2,13 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:petcareapp/contants/data/dummy_data.dart';
-import 'package:petcareapp/contants/style/colors.dart';
-import 'package:petcareapp/contants/style/fonts.dart';
-import 'package:petcareapp/contants/style/shadow.dart';
+import 'package:petcareapp/constants/data/dummy_data.dart';
+import 'package:petcareapp/constants/style/colors.dart';
+import 'package:petcareapp/constants/style/fonts.dart';
+import 'package:petcareapp/constants/style/shadow.dart';
 import 'package:petcareapp/utils/bootons.dart';
 import 'package:petcareapp/utils/builds.dart';
 import 'package:petcareapp/utils/textformfields.dart';
+import 'package:petcareapp/view/screens/Home/notefication_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -61,7 +62,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     const Spacer(),
-                    SvgPicture.asset("lib/assets/svg/fi_bell.svg")
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context).push(
+
+                          MaterialPageRoute(builder: (context)=>const NoteficationScreen())
+                        );
+                      },
+                      child: SvgPicture.asset("lib/assets/svg/fi_bell.svg"))
                   ],
                 ),
               ),

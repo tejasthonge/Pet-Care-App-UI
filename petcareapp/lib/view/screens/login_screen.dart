@@ -3,8 +3,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:petcareapp/contants/style/colors.dart';
-import 'package:petcareapp/contants/style/fonts.dart';
+import 'package:petcareapp/constants/style/colors.dart';
+import 'package:petcareapp/constants/style/fonts.dart';
 import 'package:petcareapp/utils/bootons.dart';
 import 'package:petcareapp/utils/imges.dart';
 import 'package:petcareapp/utils/textformfields.dart';
