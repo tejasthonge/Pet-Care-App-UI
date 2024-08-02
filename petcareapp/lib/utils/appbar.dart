@@ -2,7 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:petcareapp/constants/style/colors.dart';
+
 import 'package:petcareapp/constants/style/fonts.dart';
 
 AppBar buildAppBar({
